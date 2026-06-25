@@ -3,14 +3,14 @@ papers:
     authors: "<b><u>Inho Jung</u></b>, Hyeongjun Choi, Binh M. Le, Hohyun Na, and Simon S. Woo"
     venue: "International Conference on Learning Representations (ICLR), 2026"
     venue2: "Main Paper Track"
-    website: "https://iclr.cc/Conferences/2026"
+    paper_pdf: "https://iclr.cc/virtual/2026/poster/10008071"
     thumbnail: "/assets/publications/C3_2026_SDD.png"
 
   - title: "[C2] Combating Dataset Misalignment for Robust AI-Generated Image Detection in the Real World"
     authors: "Hyeongjun Choi, <b><u>Inho Jung</u></b>, and Simon S. Woo"
     venue: "ACM ASIACCS Workshop on Security Implications of Deepfakes and Cheapfakes (WDC), 2025"
     venue2: "Workshop Paper Track"
-    paper_pdf: "https://doi.org/10.1145/3709022.3736541"
+    paper_pdf: "https://dl.acm.org/doi/abs/10.1145/3709022.3736541"
     thumbnail: "/assets/publications/C2_2025_DF2.png"
 
   - title: "[C1] iFakeDetector: Real Time Integrated Web-based Deepfake Detection System"
