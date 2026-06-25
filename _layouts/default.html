@@ -42,7 +42,7 @@
             <p>{{ site.data.main_info.dept }}</p>
           {% endif %}
           {% if site.data.main_info.email %}
-            <p><a class="email-link" href="mailto:{{ site.data.main_info.email }}">{{ site.data.main_info.email }}</a></p>
+            <p><a class="email-link" href="mailto:{{ site.data.main_info.email }}">{{ site.data.main_info.email_display | default: site.data.main_info.email }}</a></p>
           {% endif %}
           <p class="profile-links">
             {% if site.data.main_info.email %}
