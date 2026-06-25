@@ -42,28 +42,18 @@
             <p>{{ site.data.main_info.dept }}</p>
           {% endif %}
           {% if site.data.main_info.email %}
-            <p>{{ site.data.main_info.email }}</p>
+            <p><a class="email-link" href="mailto:{{ site.data.main_info.email }}">{{ site.data.main_info.email }}</a></p>
           {% endif %}
-          <p>
-            {% if site.data.main_info.cv %}
-              <span onclick="window.open('{{ site.data.main_info.cv | prepend: site.baseurl }}')" style="cursor: pointer">
-                <i class="fa ai ai-cv-square" aria-hidden="true"></i>
-              </span>
-            {% endif %}
+          <p class="profile-links">
             {% if site.data.main_info.github %}
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+              <a class="profile-link" href="{{ site.data.main_info.github }}" target="_blank" rel="noopener noreferrer">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
-              </span>
+              </a>
             {% endif %}
             {% if site.data.main_info.google_scholar %}
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+              <a class="profile-link" href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener noreferrer">
                 <i class="ai fa ai-google-scholar-square" aria-hidden="true"></i>
-              </span>
-            {% endif %}
-            {% if site.data.main_info.linkedin %}
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </span>
+              </a>
             {% endif %}
           </p>
         </div>

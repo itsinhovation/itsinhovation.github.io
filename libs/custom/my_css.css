@@ -10,9 +10,23 @@ h4 {
   margin-bottom: 0px; }
 .main-description p {
   margin-bottom: 0px; }
-.main-description .fa {
-  font-size: 22px;
+.main-description .fa,
+.main-description .ai {
+  font-size: 26px;
   margin-top: 5px; }
+.email-link {
+  color: inherit;
+  text-decoration: none; }
+.email-link:hover,
+.email-link:focus {
+  text-decoration: underline; }
+.profile-links {
+  margin-top: 4px; }
+.profile-link {
+  display: inline-block;
+  margin-right: 8px;
+  color: inherit;
+  text-decoration: none; }
 .profile-image,
 .publication-thumb {
   border-radius: 1rem; }
