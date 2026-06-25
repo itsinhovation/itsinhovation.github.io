@@ -13,6 +13,11 @@ h4 {
 .main-description .fa {
   font-size: 22px;
   margin-top: 5px; }
+.profile-image,
+.publication-thumb {
+  border-radius: 1rem; }
+.publication-note {
+  margin-bottom: 2rem; }
 .paper {
   margin-bottom: 20px }
 .paper .title {
