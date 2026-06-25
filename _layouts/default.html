@@ -45,6 +45,11 @@
             <p><a class="email-link" href="mailto:{{ site.data.main_info.email }}">{{ site.data.main_info.email }}</a></p>
           {% endif %}
           <p class="profile-links">
+            {% if site.data.main_info.email %}
+              <a class="profile-link" href="mailto:{{ site.data.main_info.email }}" aria-label="Email">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+              </a>
+            {% endif %}
             {% if site.data.main_info.github %}
               <a class="profile-link" href="{{ site.data.main_info.github }}" target="_blank" rel="noopener noreferrer">
                 <i class="fa fa-github-square" aria-hidden="true"></i>
